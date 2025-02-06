@@ -12,7 +12,6 @@ public class TimetableApp {
     private java.util.List<String> timeSlots = new ArrayList<>();
     private static final String[] days = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday"};
 
-    // Teacher to subjects mapping
     private static final Map<String, String[]> teacherSubjects = new HashMap<>();
     static {
         teacherSubjects.put("John", new String[]{"Physics", "Chemistry"});
